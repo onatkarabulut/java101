@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Fighter f1=new Fighter("A", 10,100,100, 100,50);
-        Fighter f2=new Fighter("B", 20,85,85, 0,50);
-
-        Match match=new Match(f1,f2,50,120);
-        match.run();
+        
+        Fighter marc = new Fighter("Marc" , 15 , 100, 90, 0);
+        Fighter alex = new Fighter("Alex" , 10 , 95, 100, 0);
+        Match r = new Match(marc,alex , 90 , 100);
+        r.run();
 
     }
 }
